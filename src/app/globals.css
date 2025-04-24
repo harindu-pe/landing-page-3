@@ -126,14 +126,14 @@
   margin-inline: auto;
 
   @variant sm {
-    padding-inline: 20px;
+    padding-inline: 10px;
   }
 
   @variant lg {
-    padding-inline: 30px;
+    padding-inline: 10px;
   }
 
   @variant xl {
-    padding-inline: 40px;
+    padding-inline: 10px;
   }
 }
