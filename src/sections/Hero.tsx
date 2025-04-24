@@ -1,13 +1,13 @@
 "use client";
 
+import cursorYouImage from "@/assets/images/cursor-you.svg";
 import designExample1Image from "@/assets/images/design-example-1.png";
 import designExample2Image from "@/assets/images/design-example-2.png";
 import Button from "@/components/Button";
 import Pointer from "@/components/Pointer";
-import Image from "next/image";
 import { motion, useAnimate } from "motion/react";
+import Image from "next/image";
 import { useEffect } from "react";
-import cursorYouImage from "@/assets/images/cursor-you.svg";
 
 export default function Hero() {
   const [leftDesignScope, leftDesignAnimate] = useAnimate();

@@ -8,9 +8,9 @@ import outsideLogo from "@/assets/images/outside.svg";
 import pulseLogo from "@/assets/images/pulse.svg";
 import quantumLogo from "@/assets/images/quantum.svg";
 import twiceLogo from "@/assets/images/twice.svg";
+import { motion } from "motion/react";
 import Image from "next/image";
 import { Fragment } from "react";
-import { motion } from "motion/react";
 
 const logos = [
   { name: "Quantum", image: quantumLogo },
